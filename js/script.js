@@ -9,3 +9,10 @@ var cognomeUtente = prompt("Inserire cognome");
 
 // Lista Cognomi
 var listaCognomi = [ "Bianchi", "Neri", "Rossi", "Verdi", "Gialli"];
+
+// Aggiunta cognome utente nell'array
+listaCognomi.push(cognomeUtente);
+
+console.log(listaCognomi);
+
+// Stampare a schermo la lista ordinata alfabeticamente
