@@ -16,4 +16,20 @@ listaCognomi.push(cognomeUtente);
 console.log(listaCognomi);
 
 // Stampare a schermo la lista ordinata alfabeticamente
-document.getElementById("lista-cognomi").innerHTML = '<li>' + listaCognomi + '<li>';
+listaCognomi.sort();
+
+for ( var i = 0; i < listaCognomi.length; i++) {
+
+    document.getElementById("lista-cognomi").innerHTML += '<li>' + listaCognomi[i] + '</li>';
+}
+console.log('alfabeticamente ordinata', listaCognomi);
+
+//Posizione utente - Versione For
+
+for ( i = 0; i < listaCognomi.length; i++) {
+
+    
+}
+
+
+//Posizione utente - Versione While
